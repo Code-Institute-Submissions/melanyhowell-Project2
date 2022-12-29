@@ -9,16 +9,16 @@ Picture Example
 
 
 
-![multi-device](../Project1-draft/assets/readme-images/multiscreenimage.png)
+![multi-device](..////) location of picture for multiscreen
 
 
 ## Live Site
-[Fiber Active](https://melanyhowell.github.io/Project1-Fabricactive/)
+[Halo Memory Game](Site address)
 
 
 
 ## Repository
-[https://github.com/melanyhowell/Project1-Fabricactive](https://github.com/melanyhowell/Project1-Fabricactive)
+[github repository address](github repository address)
 
 
 ---
@@ -63,13 +63,13 @@ Picture Example
 ---
 
 ## Objectives
-This project has 2 main requirments:
-+ Build a static front-end site that presents relevant data in an clear and effective way using all the technologies I have learned so far regarding HTML & CSS langauages.
-+ Exhibit the required data to allow users to learn more about the brand/product and even make an infomed decision on wether to make a purchase, and the owners to accomplish their goals of marketing themselves and their product to users.
+This project has the folowing requirements:
++
++
 
 
 ## Breif
-The website for Fiber Active needs to promote their knowlege and expertise in the field of outdoor clothing materials, advertising their latest breakthrough on their most recent product that pushes their outdoor clothing ahead of their competition.
+
 
 The features that have been agreed to and requested by Fiber active are:
 + Introduction to company
@@ -80,8 +80,8 @@ The features that have been agreed to and requested by Fiber active are:
 + Comapny's social media links
 
 ## Target Audience 
-Companies looking for alterantive sources for their manufacturing to upgrade their green credentials.
-Individuals who are interested in using the products for eco-friendly hobbies or work.
+
+
 
 ---
 
