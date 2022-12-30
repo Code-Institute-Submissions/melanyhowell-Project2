@@ -5,6 +5,11 @@ header {
     font-family: "Bungee", serif;
 }
 
+#game-title {
+    padding-right: 1.5em;
+}
+
+
 /* Navigation */
 
 .navbar {
@@ -29,6 +34,11 @@ html {
     background-color: rgb(255, 226, 132);
 }
 
+#contact-page-title {
+    font-family: "Prosto One";
+    text-align: center;
+}
+
 /* Footer */
 
 footer{
@@ -42,12 +52,14 @@ footer{
 .footer-title {
     font-size: 15px;
     color: black;
+    padding-top: 10px;
 }
 
 .social-contact {
     background-color: rgb(197, 151, 0);
     padding-bottom: 25px;
     text-align: center;
+    
 }
 
 #socials {
@@ -73,6 +85,7 @@ footer{
     border-color: #c6c6c6;
     transition-duration: 0.4s;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 #contact-button:hover {
