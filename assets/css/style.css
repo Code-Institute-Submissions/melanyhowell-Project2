@@ -1,7 +1,7 @@
-.game-title {
-    background-color: brown;
+.row {
+    background-color: rgb(235, 184, 1);
 }
 
-.menu-option {
-    background-color: black;
+.menu-options {
+    background-color: rgb(32, 29, 17);
 }

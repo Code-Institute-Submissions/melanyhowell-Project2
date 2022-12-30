@@ -27,3 +27,5 @@ Code for hamburger nav bar
     </button>
   </nav>
 </div>
+
+Had an issue with CSS changes not loading to Preview, cleared my chache and previews updated
