@@ -47,8 +47,12 @@
     </header>
     <!--Main Body for contact page-->
     <section class="gamebody">
+        <div class="email-image">
+            <h3 id="contact-page-title">Contact Details</h3>
+            <img src="/assets/images/EmailUs.jpg">
+        </div>
     <!--JavaScript Email contact method-->
-        <div>
+        <div class="mcf-surround">
             <!--Contact Form (memory contact form = mcf)-->
             <div id="contact-form">
                 <h3 id="contact-page-title">Contact Details</h3>
@@ -56,37 +60,45 @@
                 <form id="mcf-id" method="post" action="#">
         
                     <div class="mcf-group">
-                        <label for="Name" class="mcf-label">Your name</label>
+                        <label for="Name" class="mcf-label">Your Name</label>
                         <div class="mcf-input-group">
                             <input type="text" id="Name" name="Name" class="mcf-control" required>
                         </div>
                     </div>
             
                     <div class="mcf-group">
-                        <label for="Email" class="mcf-label">Your email address</label>
+                        <label for="Email" class="mcf-label">Your Email Address</label>
                         <div class="mcf-input-group">
                             <input type="email" id="Email" name="Email" class="mcf-control" required>
                         </div>
                     </div>
             
                     <div class="mcf-group">
-                        <label for="Message" class="mcf-label">Your message</label>
+                        <label for="Message" class="mcf-label">Your Message</label>
                         <div class="mcf-input-group">
                             <textarea id="Message" name="Message" class="mcf-control" rows="6" maxlength="3000" required></textarea>
                         </div>
                     </div>
             
                     <div class="mcf-group">
-                        <button type="submit" id="mcf-contact-button" class="mcf-btn">Send Message</button>
+                        <button type="submit" id="mcf-button">Send Message</button>
                     </div>            
                 </form>
-                </div>
+            </div>
         </div>
+        <div id="developer-surround">
+            <div id="developer-info">
+                <a href="https://github.com/melanyhowell"><p class="developer-name"><strong>Developer:</strong> Melany Howell</p></a>
+                <p>Click below to view Melany's GitHub Profile or use the form above to get in touch</p>
+                <a href="https://github.com/melanyhowell"><i class="fa-brands fa-github developer-link" alt="github link"></i></a>
+            </div>
+        </div>
+        <div id="bottom-area"></div>
     </section>
     <!--Contact link and Game info link-->
     <footer>
         <div class= "social-contact">
-            <h4 class="footer-title">Social & Contact</h4>
+            <h4 class="footer-title">Social Media</h4>
                 <div id="socials">
                     <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook social-links" alt="facebook link"></i></a>
                     <a href="https://twitter.com/"><i class="fa-brands fa-twitter social-links" alt="twitter-link"></i></a>
