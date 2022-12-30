@@ -11,6 +11,14 @@ header {
     background-color: rgb(243, 195, 39);
 }
 
+.offcanvas-header {
+    background-color: rgb(197, 151, 0);
+}
+
+.offcanvas-body {
+    background-color: rgb(243, 195, 39);
+}
+
 /* Main Body */
 
 html {
@@ -28,10 +36,11 @@ footer{
     bottom:0;
     left:0;
     min-width: 100%;
+    font-family: "Bungee";
    }
 
 .footer-title {
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 }
 
@@ -58,14 +67,12 @@ footer{
     transition-duration: 0.4s;
 }
 
-button {
-    transition-duration: 0.4s;
-  }
-
 #contact-button {
     border-radius: 12px;
     background-color: rgb(197, 151, 0);
     border-color: #c6c6c6;
+    transition-duration: 0.4s;
+    font-size: 15px;
 }
 
 #contact-button:hover {
