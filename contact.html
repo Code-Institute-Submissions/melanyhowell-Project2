@@ -47,10 +47,28 @@
     </header>
     <!--Main Body for contact page-->
     <section class="gamebody">
-        <h3 id="contact-page-title">Contact Details</h3>
     <!--JavaScript Email contact method-->
         <div>
-            <br>
+            <!--Contact Form (memory contact form = mcf)-->
+            <div id="contact-form">
+                <h3 id="contact-page-title">Contact Details</h3>
+            
+                <form id="mcf-id" method="post" action="#">
+        
+                    <div class="mcf-group">
+                        <label for="Name" class="mcf-label">Your name</label>
+                        <div class="mcf-input-group">
+                            <input type="text" id="Name" name="Name" class="mcf-control" required>
+                        </div>
+                    </div>
+            
+                    
+            
+                    <div class="mcf-group">
+                        <button type="submit" id="mcf-contact-button" class="mcf-btn">Send Message</button>
+                    </div>            
+                </form>
+                </div>
         </div>
     </section>
     <!--Contact link and Game info link-->
