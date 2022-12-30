@@ -2,10 +2,6 @@ header {
     padding-bottom: 120px;
 }
 
-.row {
-    background-color: rgb(235, 184, 1);
-}
-
-.menu-options {
-    background-color: rgb(32, 29, 17);
+.navbar {
+    background-color: rgb(243, 195, 39);
 }

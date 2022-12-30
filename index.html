@@ -14,64 +14,41 @@
     <header>
     <!--Navigation menu-->
         <div>
-            <div class="row">
-                <div class="col-4">
-                  <a href="index.html"><img src="/assets/images/logoimage.jpg" alt="memory_game" class="logo"></a>
-                </div>
-                <div class="col-8">
-                    <h1>Memory Game</h1>
-                </div>
-                <!--Below Nav will be visible on screens large than sm-->
-                <div class="col-12 d-none d-sm-block menu-options">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="index.html"><strong>Game</strong></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#"><strong>How To Play</strong></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#"><strong>Contact</strong></a>
-                        </li>
-                      </ul>
-                </div>
-                <!--Mobile Nav bar-->
-                <div class="col-12 d-sm-none">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                        <div class="bg-dark p-4">
-                            <ul class="nav justify-content-center">
-                                <li class="nav-item">
-                                  <a class="nav-link active link-light" aria-current="page" href="index.html"><strong>Game</strong></a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link link-light" href="#"><strong>How To Play</strong></a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link link-light" href="#"><strong>Contact</strong></a>
-                                </li>
-                              </ul>
+            <nav class="navbar fixed-top">
+                <div class="container-fluid">
+                    <a href="index.html"><img src="/assets/images/logoimage.jpg" alt="memory_game" class="logo"></a>
+                    <h2>Memory Game</h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                      </div>
-                      <nav class="navbar navbar-dark bg-dark">
-                        <div class="container-fluid">
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><strong>Game</strong></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><strong>How To Play</strong></a>
+                              </li>
+                              <li>
+                                <a class="nav-link" href="#"><strong>Contact</strong></a>
+                              </li>
+                            </ul>
                         </div>
-                      </nav>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <!--Main Body Containing Game-->
     <section>
     <!--JavaScript Game-->
     <div>
-        <br>
-        <br>
-        <a href="/index copy.html">copy page</a>
-        <br>
-        <br>
+
     </div>
     </section>
     <!--Contact link and Game info link-->
