@@ -19,7 +19,11 @@
                   <a href="index.html"><img src="/assets/images/logoimage.jpg" alt="memory_game" class="logo"></a>
                 </div>
                 <div class="col-8">
-                    <ul class="nav justify-content-end">
+                    <h1 class="game-title">Memory Game</h1>
+                </div>
+                <!--Below Nav will be visible on screens large than sm-->
+                <div class="col-12 d-none d-sm-block menu-option">
+                    <ul class="nav justify-content-center">
                         <li class="nav-item">
                           <a class="nav-link active link-dark" aria-current="page" href="index.html"><strong>Game</strong></a>
                         </li>
@@ -31,6 +35,30 @@
                         </li>
                       </ul>
                 </div>
+                <div class="col-12 d-sm-none">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                            <ul class="nav justify-content-center">
+                                <li class="nav-item">
+                                  <a class="nav-link active link-light" aria-current="page" href="index.html"><strong>Game</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link link-light" href="#"><strong>How To Play</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link link-light" href="#"><strong>Contact</strong></a>
+                                </li>
+                              </ul>
+                        </div>
+                      </div>
+                      <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        </div>
+                      </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -40,7 +68,6 @@
     <div>
         <br>
         <br>
-        <img src="/assets/images/Dinosaur.svg">
         <br>
         <br>
     </div>
@@ -56,7 +83,7 @@
                     <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <div>
-                    <a href="contact.html" class="footer-button">Contact</a>
+                    <button href="contact.html" class="footer-button">Contact</button>
                 </div>
         </div>
         <div class="developer-details">

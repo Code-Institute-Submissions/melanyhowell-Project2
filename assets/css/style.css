@@ -1,4 +1,7 @@
-.row {
+.game-title {
     background-color: brown;
-    color: black;
+}
+
+.menu-option {
+    background-color: black;
 }
