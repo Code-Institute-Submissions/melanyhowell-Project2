@@ -2,6 +2,7 @@
 
 header {
     padding-bottom: 116px;
+    font-family: "Bungee", serif;
 }
 
 /* Navigation */
@@ -31,16 +32,17 @@ footer{
 
 .footer-title {
     font-size: 20px;
+    color: black;
 }
-
-#socials {
-    margin-bottom: 10px;
-   }
 
 .social-contact {
     background-color: rgb(197, 151, 0);
     padding-bottom: 25px;
     text-align: center;
+}
+
+#socials {
+    margin-bottom: 10px;
 }
 
 .social-links {
