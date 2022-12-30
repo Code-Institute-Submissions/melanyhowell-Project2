@@ -1,7 +1,73 @@
+/* Header */
+
 header {
-    padding-bottom: 120px;
+    padding-bottom: 116px;
 }
+
+/* Navigation */
 
 .navbar {
     background-color: rgb(243, 195, 39);
+}
+
+/* Main Body */
+
+html {
+    background-color: rgb(255, 226, 132); 
+}
+
+.gamebody {
+    background-color: rgb(255, 226, 132);
+}
+
+/* Footer */
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    min-width: 100%;
+   }
+
+.footer-title {
+    font-size: 20px;
+}
+
+#socials {
+    margin-bottom: 10px;
+   }
+
+.social-contact {
+    background-color: rgb(197, 151, 0);
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.social-links {
+    border-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.social-links:hover {
+    color: #c6c6c6;
+    transition-duration: 0.4s;
+}
+
+button {
+    transition-duration: 0.4s;
+  }
+
+#contact-button {
+    border-radius: 12px;
+    background-color: rgb(197, 151, 0);
+    border-color: #c6c6c6;
+}
+
+#contact-button:hover {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color:#c6c6c6 ;
 }
