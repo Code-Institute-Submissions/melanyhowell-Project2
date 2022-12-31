@@ -7,6 +7,8 @@ header {
 
 #game-title {
     padding-right: 1.5em;
+    color: #000000;
+    text-decoration: none;
 }
 
 
@@ -48,7 +50,7 @@ html {
 
 footer{
     position:fixed;
-    bottom:0;
+    bottom:10px;
     left:0;
     min-width: 100%;
     font-family: "Bungee";
@@ -63,8 +65,7 @@ footer{
 .social-contact {
     background-color: rgb(197, 151, 0);
     padding-bottom: 25px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #socials {
@@ -91,6 +92,7 @@ footer{
     transition-duration: 0.4s;
     font-size: 15px;
     margin-bottom: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #contact-button:hover {
@@ -181,3 +183,39 @@ footer{
 #bottom-area {
     margin-bottom: 115px;
 }
+
+/* popup for form email confirmation */
+
+.popup {
+    width: auto;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+}
+
+.popup button {
+    width: 100%;
+    padding: 10px 0;
+    background:rgb(243, 195, 39);
+    color:#202020;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#email-tk-image {
+    width: 75px;
+    margin-top: -30px;
+    border-radius: 25%;
+    background: rgb(255, 255, 255, 0.4);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
