@@ -6,18 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bungee&family=Prosto+One&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <a class="active" aria-current="page" href="index.html"><title>Memory Game - Project 2</title></a>
+    <title>Memory Game - Project 2</title>
     <script src="https://kit.fontawesome.com/d2c7cc3890.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function(){
-        emailjs.init("cqWu77-1bLkI6zXjk");
-        })();
-    </script>
-    
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -42,7 +33,7 @@
                                 <a class="nav-link active" aria-current="page" href="index.html"><strong>Game</strong></a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link" href="popup.html"><strong>How To Play</strong></a>
+                                <a class="nav-link" href="#"><strong>How To Play</strong></a>
                               </li>
                               <li>
                                 <a class="nav-link" href="contact.html"><strong>Contact</strong></a>
@@ -54,59 +45,17 @@
             </nav>
         </div>
     </header>
-    <!--Main Body for contact page-->
+    <!--Main Body Containing Game-->
     <section class="gamebody">
-        <!--<div class="email-image">
-            <img src="/assets/images/EmailUs.jpg">
-        </div>-->
-    <!--JavaScript Email contact method-->
-        <div class="mcf-surround">
-            <!--Contact Form (memory contact form = mcf)-->
-            <div id="contact-form">
-                <h3 id="contact-page-title">Contact Us Below</h3>
-            
-                <form id="mcf-id" onsubmit="return sendMail(this);">
-        
-                    <div class="mcf-group">
-                        <label for="Name" class="mcf-label">Your Name</label>
-                        <div class="mcf-input-group">
-                            <input type="text" id="Name" name="Name" class="mcf-control" required>
-                        </div>
-                    </div>
-            
-                    <div class="mcf-group">
-                        <label for="emailaddress" class="mcf-label">Your Email Address</label>
-                        <div class="mcf-input-group">
-                            <input type="email" id="emailaddress" name="emailaddress" class="mcf-control" required>
-                        </div>
-                    </div>
-            
-                    <div class="mcf-group">
-                        <label for="Message" class="mcf-label">Your Message</label>
-                        <div class="mcf-input-group">
-                            <textarea id="message" name="message" class="mcf-control" rows="6" maxlength="3000" required></textarea>
-                        </div>
-                    </div>
-            
-                    <div class="mcf-group">
-                        <button type="submit" id="mcf-button">Send Message</button>
-                    </div>            
-                </form>
-            </div>
+    <!--JavaScript Game-->
+        <div>
+            <br>
         </div>
-        <div id="developer-surround">
-            <div id="developer-info">
-                <a href="https://github.com/melanyhowell"><p class="developer-name"><strong>Developer:</strong> Melany Howell</p></a>
-                <p>Click below to view Melany's GitHub Profile or use the form above to get in touch</p>
-                <a href="https://github.com/melanyhowell"><i class="fa-brands fa-github developer-link" alt="github link"></i></a>
-            </div>
-        </div>
-        <div id="bottom-area"></div>
     </section>
     <!--Contact link and Game info link-->
     <footer>
         <div class= "social-contact">
-            <h4 class="footer-title">Social Media</h4>
+            <h4 class="footer-title">Social & Contact</h4>
                 <div id="socials">
                     <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook social-links" alt="facebook link"></i></a>
                     <a href="https://twitter.com/"><i class="fa-brands fa-twitter social-links" alt="twitter-link"></i></a>
@@ -114,8 +63,10 @@
                     <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube social-links" alt="youtube link"></i></a>
                     <a href="https://github.com/melanyhowell"><i class="fa-brands fa-github social-links" alt="github link"></i></a>
                 </div>
+                <div>
+                    <a href="contact.html" ><button id="contact-button"><strong>Contact Us</strong></button></a>
+                </div>
         </div>
     </footer>
-    <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
