@@ -138,3 +138,5 @@ Inspiration for a clean Contact Form look from (https://www.majesticform.com/for
     </div>
 
 Inspiration for Email confirmation comes from youtube link - https://www.youtube.com/watch?v=AF6vGYIyV8M - Easy Tutorials
+
+need to add in a game plan
