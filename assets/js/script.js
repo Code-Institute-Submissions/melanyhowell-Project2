@@ -21,7 +21,6 @@ const items = [
   { name: "elephant", image: "elephant.svg" },
   { name: "duck", image: "duck.svg" },
   { name: "donkey", image: "donkey.svg" },
-  //{ name: "cockatoo", image: "cockatoo.png" },
   //{ name: "toucan", image: "toucan.png" },
 ];
 //Initial Time
@@ -141,6 +140,32 @@ const matrixGenerator = (cardValue, size = 4) => {
     });
   });
 };
+
+//Start game
+startButton.addEventListener("click", () => {
+  movesCount = 0;
+  seconds = 0;
+  minutes = 0;
+  //controls amd buttons visibility
+  controls.classList.add("hide");
+  stopButton.classList.remove("hide");
+  startButton.classList.add("hide");
+  //Start timer
+  interval = setInterval(timeGenerator, 1000);
+  //initial moves
+  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+  initializer();
+});
+//Stop game
+stopButton.addEventListener(
+  "click",
+  (stopGame = () => {
+    controls.classList.remove("hide");
+    stopButton.classList.add("hide");
+    startButton.classList.remove("hide");
+    clearInterval(interval);
+  })
+);
 
 //Initialise values and func calls
 const initializer = () => {
