@@ -34,10 +34,10 @@ html {
     background-color: rgb(255, 226, 132);
 }
 
-.email-image {
+/*.email-image {
     display:flex;
     justify-content: center;
-}
+}*/
 
 #contact-page-title {
     font-family: "Prosto One";
