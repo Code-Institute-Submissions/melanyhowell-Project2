@@ -229,20 +229,33 @@ footer{
 /* Game CSS */
 
 .wrapper {
-   box-sizing:border-box;
-   width: 26.87em;
-   padding: 2.5em 3em;
-   background-color: #fff;
-   position: absolute;
-   transform: translate(-50%, -50%);
-   left: 50%;
-   top: 50%;
-   border-radius: 0.6em;
-   box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
-}
-
-.game-container {
+    box-sizing: content-box;
+    width: 26.87em;
+    padding: 2.5em 3em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.6em;
+    box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
+  }
+  .game-container {
     position: relative;
     width: 100%;
     display: grid;
-}
+    gap: 0.6em;
+  }
+  .stats-container {
+    text-align: right;
+    margin-bottom: 1.2em;
+  }
+  .stats-container span {
+    font-weight: 600;
+  }
+  .card-container {
+    position: relative;
+    width: 6.25em;
+    height: 6.25em;
+    cursor: pointer;
+  }
