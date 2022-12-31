@@ -67,3 +67,22 @@ const generateRandom = (size = 4) => {
   }
   return cardValues;
 };
+
+const matrixGenerator = (cardValue, size = 4) => {
+  gameContainer.innerHTML = "";
+  cardValues = [...cardValues, ...cardValues];
+  //simple shuffle
+  cardValues.sort(() => Math.random() - 0.5);
+  for(let i=0; i<size*size;i++){
+
+  }
+};
+
+//Initialise values and func calls
+const initializer = () => {
+  result.innerText = "";
+  winCount = 0;
+  let cardValues = generateRandom();
+  console.log(cardValues);
+  matrixGenerator(cardValues);
+};
