@@ -137,6 +137,12 @@ footer{
     margin-bottom: 1em;
 }
 
+#mcf-button:hover {
+    color: #c6c6c6;
+    background-color: #202020;
+    transition-duration: 0.4s;
+}
+
 #developer-surround {
     display: flex;
     justify-content: center;    
@@ -159,6 +165,11 @@ footer{
     padding-right: 10px;
     color: black;
     font-size: 60px;
+}
+
+.developer-link:hover {
+    color: #c6c6c6;
+    transition-duration: 0.4s;
 }
 
 .developer-name {
