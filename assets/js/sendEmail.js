@@ -15,4 +15,13 @@ function sendMail(contactForm) {
     return false;  // To block from loading a new page
 }
 
-// need to complete a sucessful submission message
+// confirmation message when send is pressed -PopUp
+
+let popup = document.getElementById("EmailConfirm")
+
+function openEmailConfirm(){
+    popup.classList.add("open-EmailConfirm");
+}
+function closeEmailConfirm(){
+    popup.classList.remove("open-EmailConfirm");
+}

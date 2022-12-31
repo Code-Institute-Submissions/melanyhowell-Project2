@@ -89,13 +89,13 @@
                     </div>
             
                     <div class="mcf-group">
-                        <button type="submit" id="mcf-button">Send Message</button>
-                        <div class="popup">
+                        <button type="submit" id="mcf-button" onclick="openEmailConfirm()">Send Message</button>
+                        <div class="popup" id="EmailConfirm">
                             <img id="email-tk-image" src="/assets/images/envelope-check.svg">
                             <h3>Thank You!</h3>
                             <p>You've sucessfully submitted your enquiry</p>
                             <p>We'll try and get back to you within 2 business days</p>
-                            <button type="button">close</button>
+                            <button type="button" onclick="closeEmailConfirm()">Close</button>
                         </div>
                     </div>            
                 </form>
