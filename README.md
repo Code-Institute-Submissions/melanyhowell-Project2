@@ -1,7 +1,7 @@
 # Portfolio Project 2 - 
 
 
-I have decided to go with the memory game [This Site](https:/)for my second project and have looked into the following examples from the following sources for inspiration.
+I have decided to go with the memory game [This Site] (https:/) for my second project and have looked into the following examples from the following sources for inspiration.
 1)Source -
 Picture Example
 2)Source -
@@ -13,12 +13,12 @@ Picture Example
 
 
 ## Live Site
-[Halo Memory Game](Site address)
+[Memory Game](Site address)
 
 
 
 ## Repository
-[github repository address](github repository address)
+[https://github.com/melanyhowell/Project2](https://github.com/melanyhowell/Project2)
 
 
 ---
