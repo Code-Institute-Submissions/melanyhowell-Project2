@@ -163,7 +163,7 @@ I chose these fonts as they all have an element of the old style gaming arcade g
 
 ### Imagery
 
-The imagery i choose was to be as generic as possible, my one wish while searching for compatible and similar style cartoons was more variety in colour as I feel the images are strongly based on Gray.
+The imagery I choose was to be as generic as possible but something that would still be relatable and appealing, my one wish while searching for compatible and similar style cartoons was more variety in colour as I feel the images are strongly based on Gray.
 
 ---
 
@@ -261,23 +261,15 @@ The site was deployed to GitHub pages.
 
 ## Credits
 
-### Content
++ Inspiration for Email confirmation popup comes from youtube link - (https://www.youtube.com/watch?v=AF6vGYIyV8M) - [Easy Tutorials]
++
 
-+ Mentor Harry gave a great insight into the how the layout should be progressed
-+ For my README.md I saught inspiration from [Tasha Taylor Johnsons's Repository](https://github.com/TashaTJ/pawsome-portraits-v4/blob/main/README.md) as her layout really helped me understand what is expected from creating my first README.
 
 
 ### Media
 
 Obtained from the free photo sites such as 
 + [Pexels](https://www.pexels.com/) for Background Image
-+ [unspalsh](https://unsplash.com/)
-
-+ [Wendy van Zyl – pexels](https://www.pexels.com/photo/selective-focus-photography-of-assorted-coloured-thread-spools-1212179/)
-+ [Surene Palvie – pexels](https://www.pexels.com/photo/assorted-color-yarns-on-brown-wicker-basket-2070676/)
-+ [DESIGNECOLOGIST  - unsplash](https://www.pexels.com/photo/leaves-hang-on-rope-1389460/)
-+ [Ekaterina Grosheva  - unsplash](https://unsplash.com/photos/wcdHwuFJfn4)
-+ [Vitalijs Barilo - unsplash](https://unsplash.com/photos/azMZaQCUyV8)
 
 
 
@@ -293,10 +285,8 @@ Obtained from the free photo sites such as
 
 ## Acknowledgements
 
-This Site was developed for the purpose of my portfolio 1 Project for the full stack diploma.
+This Site was developed for the purpose of my portfolio 2 Project for the full stack diploma.
 Thanks to my Mentor Harry Dhillon for his support.
 
 
-Melany Howell 2022
-
-`python3 -m http.server`
+Melany Howell 2023
