@@ -223,6 +223,36 @@ Once Send message has been clicked a popup appears saying request was submitted 
 
 ---
 
+## JavaScript Game Process
+
+### Required Features
++ controls
+    + Start game function
+    + time eleapsed counter
+    + moves completed counter
+    + Stop game function
++ Images and cards
+    + 10 animals provided for variation only 8 pairs will be shown at once
++ Random selection
+
+### Proceses Needed
++ Arrange tracking of moves
+    + move counted only after second card selected
++ Arrange Time to be tracked
+    + format seconds and minutes
++ Need Cards 8 pairs 
+    + cards need to be flipped
+    + shuffle cards
++ if cards match
++ if cards dont match
+
+
+
+
+---
+
+
+
 ## Technologies Used
 
 + [HTML5](https://html.spec.whatwg.org/)

@@ -1,18 +1,3 @@
-
-
-const startButton = document.getElementById("start");
-const stopButton = document.getElementById("stop");
-const gameContainer = document.querySelector(".game-container");
-const moves = document.getElementById("moves-count");
-const result = document.getElementById("result");
-const timeValue = document.getElementById("time");
-const controls = document.querySelector(".controls-container");
-
-let cards;
-let interval;
-let firstCard = false;
-let secondCard = false;
-
 //Card selection/array is x 10 in total to enable use of extra difficulty if brought into game.
 const animals = [
   { name: "squirel", image: "/assets/images/squirrel.svg" },
@@ -27,15 +12,34 @@ const animals = [
   { name: "donkey", image: "/assets/images/donkey.svg" },
 ];
 
-//Initial Time
+//set initial state
+let firstCard = false;
+let secondCard = false;
+
+const startButton = document.getElementById("start");
+const stopButton = document.getElementById("stop");
+const gameContainer = document.querySelector(".game-container");
+const moves = document.getElementById("moves-count");
+const result = document.getElementById("result");
+const timeValue = document.getElementById("time");
+const controls = document.querySelector(".controls-container");
+
+
+
+//For calculating the amount of moves taken by user
+const movesCounter = () => {
+  movesCount += 1;
+  moves.innerHTML = `<span>Moves:</span>${movesCount}`;
+};
+
+// Time, Moves starting place
 let seconds = 0,
   minutes = 0;
-//Initial moves and win count
-let movesCount = 0,
-  winCount = 0;
+  movesCount = 0,
+  correctCount = 0;
 
-//For timer we want the time in minutes and seconds so we produced the below
-const timeGenerator = () => {
+//if there are more than 60 seconds on time the minute increases by 1 for every 60 seconds (taken from https://www.youtube.com/@CodingArtist)
+const clockGenerator = () => {
   seconds += 1;
 
   if (seconds >= 60) {
@@ -48,11 +52,9 @@ const timeGenerator = () => {
   timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
   };
 
-//For calculating moves
-const movesCounter = () => {
-  movesCount += 1;
-  moves.innerHTML = `<span>Moves:</span>${movesCount}`;
-};
+let cards;
+let interval;
+
 
 //We need the game to pick random objects from the array of animals
 const generateRandom = (size = 4) => {
@@ -60,7 +62,7 @@ const generateRandom = (size = 4) => {
   let tempArray = [...animals];
   //initialises cardValues array
   let cardValues = [];
-  //size should be double (4*4 matrix)/2 since pairs of objects would exist
+  //grid size is 4x4 which means 16 cards and 8 pairs
   size = (size * size) / 2;
   //Random object selection
   for (let i = 0; i < size; i++) {
@@ -121,10 +123,10 @@ cards.forEach((card) => {
           secondCard.classList.add("matched");
           //set firstCard to false since next card would be first now
           firstCard = false;
-          //winCount increment as user found a correct match
-          winCount += 1;
-          //check if winCount ==half of cardValues
-          if (winCount == Math.floor(cardValues.length / 2)) {
+          //correctCount increment as user found a correct match
+          correctCount += 1;
+          //check if correctCount ==half of cardValues
+          if (correctCount == Math.floor(cardValues.length / 2)) {
             result.innerHTML = `<h2>You Won</h2>
           <h4>Moves: ${movesCount}</h4>`;
             stopGame();
@@ -156,7 +158,7 @@ startButton.addEventListener("click", () => {
   stopButton.classList.remove("hide");
   startButton.classList.add("hide");
   //Start timer
-  interval = setInterval(timeGenerator, 1000);
+  interval = setInterval(clockGenerator, 1000);
   //initial moves
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
