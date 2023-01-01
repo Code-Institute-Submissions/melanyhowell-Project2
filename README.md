@@ -292,25 +292,26 @@ The site was deployed to GitHub pages.
 ## Credits
 
 + Inspiration for Email confirmation popup comes from youtube link - (https://www.youtube.com/watch?v=AF6vGYIyV8M) - [Easy Tutorials]
-+
 + I looked up on youtube for some tutorial help with javascript and the memory games and used the following for reference - (https://github.com/code-sketch/memory-game/)
++ https://www.youtube.com/@CodingArtist was a great help especially when getting stuck on time value issues and helping bug proof the game so only two cards can be picked at a time and an already matched card can't be turned back over if clicked again.
 
 
 ### Media
 
 Obtained from the free photo sites such as 
 + [Pexels](https://www.pexels.com/) for Background Image
-
++ [Pexels](file:///G:/My%20Drive/Careers/Coding/Projects/Code%20Institute/Second%20Project/Cartoon%20Images/Prefered%20Options/Sources/Squirrel%20-%20Free%20vector%20graphic%20on%20Pixabay.html) for all animals sheep,squirrel, rooster, pig, kangaroo, hippo, goat , elephant, duck and donkey.
 
 
 
 ### Code
 
-+ Issues I used the following references;
++ with issues i found I used the following references;
     + [W3Schools](https://www.w3schools.com/)
     + [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
     + [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/5255d165b5284d728b13bd224144d984/)
     + [MDN](https://developer.mozilla.org/en-US/)
+    + [Youtube](https://www.youtube.com/)
 
 
 ## Acknowledgements
