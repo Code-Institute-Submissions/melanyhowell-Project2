@@ -312,6 +312,14 @@ footer{
     height: 100%;
     top: 0;
   }
+
+  #start {
+    border: none;
+  border-radius: 0.3em;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  }
+
   #stop {
     font-size: 1.1em;
     display: block;
@@ -328,6 +336,7 @@ footer{
   }
   #result {
     text-align: center;
+    background: rgb(198, 198, 198);
   }
   #result h2 {
     font-size: 2.5em;
