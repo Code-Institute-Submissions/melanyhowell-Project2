@@ -5,20 +5,25 @@ I Have used the following testing  sites to check my code -
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
     - [W3C CSS Validator](#w3c-css-validator)
+    - [W3C JS Validator](#w3c-JS-validator)
 - [Lighthouse](#lighthouse)
+- [Chrome dev tools](https://developer.chrome.com/docs/devtools/)
 
 
 ## Code Validation
 
 ### W3C HTML Validator
-![HTML home](/assets/readme-images/HTLM%20home%20validator.png)
+![HTML home](assets/readmeimages/htmlvalidationpng.png)
 
 
 ### W3C CSS Validator
-![CSS Validator](/assets/readme-images/CSS%20validator.png)
+![CSS Validator](assets/readmeimages/cssvalidation.png)
+
+### W3C JS Validator
+![JS Validator]()
 
 ## Lighthouse
-![Lighthouse](/assets/readme-images/lighthouse.png)
+![Lighthouse](assets/readmeimages/lighthouse.png)
 
 
 ## Resolved Issues
