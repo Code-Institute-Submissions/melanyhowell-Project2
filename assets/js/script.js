@@ -62,7 +62,7 @@ const generateRandom = (size = 4) => {
   let tempArray = [...animals];
   //initialises cardValues array
   let cardValues = [];
-  //grid size is 4x4 which means 16 cards and 8 pairs
+  //grid size is 4x4 which means 16 cards and therefore 8 pairs
   size = (size * size) / 2;
   //Random object selection
   for (let i = 0; i < size; i++) {
@@ -103,21 +103,18 @@ cards.forEach((card) => {
       card.classList.add("flipped");
       //if it is the firstcard (!firstCard since firstCard is initially false)
       if (!firstCard) {
-        //so current card will become firstCard
         firstCard = card;
         //current cards value becomes firstCardValue
         firstCardValue = card.getAttribute("data-card-value");
       } else {
-        //increment moves since user selected second card
         movesCounter();
-        //secondCard and value
         secondCard = card;
 
         let secondCardValue = card.getAttribute("data-card-value");
         if (firstCardValue == secondCardValue) {
           firstCard.classList.add("matched");
           secondCard.classList.add("matched");
-          //this means first card will now be ignored as second car has become the first car
+          //this means first card will now be ignored as second card has taken the first cards place
           firstCard = false;
           //correctCount increment as user found a correct match
           correctCount += 1;

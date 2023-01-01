@@ -1,19 +1,16 @@
 # Portfolio Project 2 - 
 
 
-I have decided to go with the memory game [This Site] (https:/) for my second project and have looked into the following examples from the following sources for inspiration.
-1)Source -
-Picture Example
-2)Source -
-Picture Example
+I have decided to go with the memory game [This Site](https://melanyhowell.github.io/Project2/) for my second project and have looked into the following examples from the following sources for inspiration.
++ [YouTube](https://www.youtube.com/watch?v=DABkhfsBAWw)
++ [Multi level memory game](https://github.com/Al3x4/memory-game)
 
 
 
-![multi-device](..////) location of picture for multiscreen
-
+![multi-device](assets/readmeimages/multiscreen.png)
 
 ## Live Site
-[Memory Game](Site address)
+[Memory Game](https://melanyhowell.github.io/Project2/)
 
 
 
@@ -24,7 +21,7 @@ Picture Example
 ---
 
 ## Contents
-+ [Project Requirements]{#project-requirments}
++ [Project Requirements](#project-requirements)
 + [Objectives](#Objectives)
 + [Target Audience](#target-audience)
 + [User Experience: UX](#user-exerience-ux)
@@ -50,6 +47,7 @@ Picture Example
             + [Contact Form](#contact-form)
             + [Form Confirmation](#form-confirmation)
         + [Future Features](#future-features)
+    + [JavaScript Process](#javascript-game-process)    
     + [Technologies Used](#technologies-used)
     + [Testing](#testing)
     + [Deployment](#deployment)
@@ -90,8 +88,6 @@ This project has the folowing requirements:
 
 
 ---
-
-
 ## User Exerience: UX
 
 ### Initial Concept
@@ -246,11 +242,7 @@ Once Send message has been clicked a popup appears saying request was submitted 
 + if cards match
 + if cards dont match
 
-
-
-
 ---
-
 
 
 ## Technologies Used
