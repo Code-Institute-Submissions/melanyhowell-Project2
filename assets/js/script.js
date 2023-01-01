@@ -1,15 +1,15 @@
 //Card selection/array is x 10 in total to enable use of extra difficulty if brought into game.
 const animals = [
-  { name: "squirel", image: "/assets/images/squirrel.svg" },
-  { name: "sheep", image: "/assets/images/sheep.svg" },
-  { name: "rooster", image: "/assets/images/rooster.svg" },
-  { name: "pig", image: "/assets/images/pig.svg" },
-  { name: "kangaroo", image: "/assets/images/kangaroo.svg" },
-  { name: "hippo", image: "/assets/images/hippo.svg" },
-  { name: "goat", image: "/assets/images/goat.svg" },
-  { name: "elephant", image: "/assets/images/elephant.svg" },
-  { name: "duck", image: "/assets/images/duck.svg" },
-  { name: "donkey", image: "/assets/images/donkey.svg" },
+  { name: "squirel", image: "/assets/images/squirrel.png" },
+  { name: "sheep", image: "/assets/images/sheep.png" },
+  { name: "rooster", image: "/assets/images/rooster.png" },
+  { name: "pig", image: "/assets/images/pig.png" },
+  { name: "kangaroo", image: "/assets/images/kangaroo.png" },
+  { name: "hippo", image: "/assets/images/hippo.png" },
+  { name: "goat", image: "/assets/images/goat.png" },
+  { name: "elephant", image: "/assets/images/elephant.png" },
+  { name: "duck", image: "/assets/images/duck.png" },
+  { name: "donkey", image: "/assets/images/donkey.png" },
 ];
 
 //set initial state
