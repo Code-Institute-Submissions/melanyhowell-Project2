@@ -13,13 +13,13 @@ let secondCard = false;
 const items = [
   { name: "squirel", image: "/assets/images/squirrel.svg" },
   { name: "sheep", image: "/assets/images/sheep.svg" },
-  { name: "rooster", image: "/assets/images/rooster.png" },
+  { name: "rooster", image: "/assets/images/rooster.svg" },
   { name: "pig", image: "/assets/images/pig.svg" },
   { name: "kangaroo", image: "/assets/images/kangaroo.svg" },
   { name: "hippo", image: "/assets/images/hippo.svg" },
-  { name: "goat", image: "/assets/images/goat.png" },
+  { name: "goat", image: "/assets/images/goat.svg" },
   { name: "elephant", image: "/assets/images/elephant.svg" },
-  { name: "duck", image: "/assets/images/duck.png" },
+  { name: "duck", image: "/assets/images/duck.svg" },
   { name: "donkey", image: "/assets/images/donkey.svg" },
 ];
 
