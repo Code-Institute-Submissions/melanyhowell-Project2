@@ -263,7 +263,7 @@ The site was deployed to GitHub pages.
 
 + Inspiration for Email confirmation popup comes from youtube link - (https://www.youtube.com/watch?v=AF6vGYIyV8M) - [Easy Tutorials]
 +
-
++ I looked up on youtube for some tutorial help with javascript and the memory games and used the following for reference - (https://github.com/code-sketch/memory-game/)
 
 
 ### Media

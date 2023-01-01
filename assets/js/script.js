@@ -1,16 +1,20 @@
-const moves = document.getElementById("moves-count");
-const timeValue = document.getElementById("time");
+
+
 const startButton = document.getElementById("start");
 const stopButton = document.getElementById("stop");
 const gameContainer = document.querySelector(".game-container");
+const moves = document.getElementById("moves-count");
 const result = document.getElementById("result");
+const timeValue = document.getElementById("time");
 const controls = document.querySelector(".controls-container");
+
 let cards;
 let interval;
 let firstCard = false;
 let secondCard = false;
-//Items array
-const items = [
+
+//Card selection/array is x 10 in total to enable use of extra difficulty if brought into game.
+const animals = [
   { name: "squirel", image: "/assets/images/squirrel.svg" },
   { name: "sheep", image: "/assets/images/sheep.svg" },
   { name: "rooster", image: "/assets/images/rooster.svg" },
@@ -30,15 +34,15 @@ let seconds = 0,
 let movesCount = 0,
   winCount = 0;
 
-//For timer
+//For timer we want the time in minutes and seconds so we produced the below
 const timeGenerator = () => {
   seconds += 1;
-//minutes logic
+
   if (seconds >= 60) {
     minutes += 1;
     seconds = 0;
   }
-//format time before displaying
+//format time before displaying 
   let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
   let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
   timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
@@ -50,10 +54,10 @@ const movesCounter = () => {
   moves.innerHTML = `<span>Moves:</span>${movesCount}`;
 };
 
-//Pick random objects from the items array
+//We need the game to pick random objects from the array of animals
 const generateRandom = (size = 4) => {
-  //temporary array
-  let tempArray = [...items];
+  
+  let tempArray = [...animals];
   //initialises cardValues array
   let cardValues = [];
   //size should be double (4*4 matrix)/2 since pairs of objects would exist
@@ -158,13 +162,12 @@ startButton.addEventListener("click", () => {
   initializer();
 });
 //Stop game
-stopButton.addEventListener(
-  "click",
+stopButton.addEventListener("click",
   (stopGame = () => {
-    controls.classList.remove("hide");
-    stopButton.classList.add("hide");
-    startButton.classList.remove("hide");
-    clearInterval(interval);
+  controls.classList.remove("hide");
+  stopButton.classList.add("hide");
+  startButton.classList.remove("hide");
+  clearInterval(interval);
   })
 );
 
