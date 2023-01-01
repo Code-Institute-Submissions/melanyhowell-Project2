@@ -24,8 +24,8 @@ Picture Example
 ---
 
 ## Contents
++ [Project Requirements]{#project-requirments}
 + [Objectives](#Objectives)
-+ [Breif](#breif)
 + [Target Audience](#target-audience)
 + [User Experience: UX](#user-exerience-ux)
     + [Initial Concept](#initial-concept)
@@ -61,26 +61,32 @@ Picture Example
 
 
 ---
+## Project Requirements
 
+Main technologies need to be used
+    - HTML, CSS and JavaScript
+    - Optional: jQuery or any other JavaScript libraries, external APIs.
+
+Mandatory Requirements
+    - Dynamic Front End Project: Write custom JavaScript, HTML and CSS code to create a front-end web application consisting of one or more HTML pages with significant interative functionality.
+    - Site Responses: Use JavaScript to have the site produce relevant responses dependent on users' actions.
+    - Information Architecture: Incorporate a main navigation menu (unless irrelevant) and structured layout (you might want to use Bootstrap to accomplish this).
+    - Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+    - Version Control: Use Git & GitHub for version control.
+    - Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+    -Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
+
+---
 ## Objectives
 This project has the folowing requirements:
-+
-+
-
-
-## Breif
-
-
-The features that have been agreed to and requested by Fiber active are:
-+ Introduction to company
-+ Detail on company and their research
-+ Link to product
-+ About product and why it's so special
-+ Contact link and Form to request more info on product or company
-+ Comapny's social media links
++ A game that can be fun to play
++ Simple single-player pattern-matching memory game
++ Clear explananaions on how to play the game and their progress.
 
 ## Target Audience 
 
++ Target audience is anyone looking to challenge their memory.
++ Incorporated friendly generic pictures to appeal to all audiences
 
 
 ---
@@ -89,118 +95,112 @@ The features that have been agreed to and requested by Fiber active are:
 ## User Exerience: UX
 
 ### Initial Concept
-I want to set forward a professional and clean look for the website while still showing its roots in nature. keeping things uncluttered and clear will help guide the user in quickly utilising the website for their needs. Technology websites like [Apple website](https://www.apple.com/uk/), [OnePlus Website](https://www.oneplus.com/uk), [National Gallery](https://www.nationalgallery.org.uk/) and [Oxford Fabric Website](https://www.oxford-fabric.com/product/)
+I wanted to incorporated an old style game style to my website as my website would be no more than 3 pages and fairly easy to navigate.
+With a simple card turn memory game as the feature.
 
 ### User Stories
 
-I am a user that requires the following things when using this site;
+Being the primary user I expect the following;
 
-+ Site from inital loading needs to be clear with its purpose
-+ Navigation must be smooth and simple
-+ Easy to read infomation that isn't too technical
-+ Enable me to access request the product info and how to buy
-+ Straigtforward contact process
-+ Be able to see Fiber Active's social presence
-+ See who the developer was and what their information is
++ Want a game that is easy to play and reset. 
++ With a move and timer counter that I can follow to improve on.
++ If I need instructions to play the game they should be easy to navigate to aswell as a way of contacting the websites owners.
++ Links to owners social sites and developers links.
 
 As the owner I want the following from my site;
 
-+ Clear & professional presence
-+ Background on company
-+ Info on product ranges
++ Easy and fun to play, Make player want to keep playing.
++ Ease of use of website
 + Ways for people to get in contact with us
 
 As a developer I am looking to provide the following;
 
-+ Easy to use and accessible
-+ Tidy professional look
-+ Makes visitors want to explore/return
-+ satisfies Owner and vistitors needs
++ No accesibility issues
++ A game that is enjoyable
++ Satisfies the above wants of the user and owner
 
 
 ### Wireframes
 
-I created my Wireframes using [Balsamiq](https://balsamiq.com). Some aspects I have decided to adapt and change due to accomodating design features or requierments that weren't originally anticipated.
+I created my Wireframes using [Balsamiq](https://balsamiq.com). 
 
-#### Home Page
+From the original designs I have changed a few aspects.
++ Nav bar loaction
++ Contact button on footer removed for consistency on every page
++ Score system originally though was not practical now changed to timer and moves tracking.
++ How to page changed from popup to webpage as menu option limited use of popup function.
 
-![Home Page Wireframes](assets/readme-images/home-page-wirframes.png)
+#### Home/Game Page
 
-#### Product/Services Page
+![Home/Game Page Wireframes](assets/readmeimages/wireframe-home-game.png)
 
-![Product Page Wireframes](assets/readme-images/product-page-wirframes.png)
+#### Contact Page
 
-#### Contact Form Page
+![Contact Page Wireframes](assets/readmeimages/wireframe-contactpage.png)
 
-![Contact Page Wireframes](assets/readme-images/contact-page-wirframes.png)
+#### How To Play Popup/Page
 
-#### Form Confirmation Page
-
-![Confirmation Page Wireframes](assets/readme-images/formconfirmation-page-wirframes.png)
+![How To Page Wireframes](assets/readmeimages/wireframe-popup.png)
 
 
 ### Site Structure
 
-Fabric Active is 3 pages with the home page being the landing page and all pages and social links accessible from all pages allowing for easy navigation.
-4th page is the Page confirming submission of the contact form
+Memory Game Website consists of 3 pages the Home PAge which hold the game, the "How To" Page which gives instructions on how to play, and the "Contact" Page which allows the user to email directly or access the owners or developers social netwroks for more info.
 
 ### Colour Pallette
 
-Finding a complementry colour pallette that doesn't distract from the goals of the website has been tricky while maintaining an aspect of nature in the features. I used both  [My Color space webiste](https://mycolor.space/?hex=%23F76C53&sub=1) to help selct my colour pallette from there.
-
-![Colour Pallette](assets/readme-images/Colour%20Pallet.png)
-
-I used [Web Aim Website](https://webaim.org/resources/contrastchecker/) and my original colours not passing all the contrast tests.
-
-![Colour check](assets/readme-images/Colour%20check.png)
+I wanted my game site to have a happy colour that wouldn't prevent the font of the pages to be changed too drastically from black or gray.
 
 
 ### Typography
 
-The two fonts selected are Odswald and Figtree imported from [Google Fonts](https://fonts.google.com/).
-I chose these fonts as they bring a casual look to the site while still maintaining a professional visual.
+The fonts I selected were;
++ Bungee 
++ Prosto One
++ Righteous
+That have been imported from [Google Fonts](https://fonts.google.com/).
+I chose these fonts as they all have an element of the old style gaming arcade games to them which helps lend to the style of a simple game look.
 
 ### Imagery
 
-Relating the images back to the eco-friendly product descriptions.
-By using a site like [compressor.io] to compress the files this should allow for faster loading times.
+The imagery i choose was to be as generic as possible, my one wish while searching for compatible and similar style cartoons was more variety in colour as I feel the images are strongly based on Gray.
 
 ---
 
 ## Features
 
-The features I have utilised are intended to be used to create an easy flowing experince for any user, allowing them to easily navigate through the site to find the infomration they are looking for, enabling a positive user experience.
+In trying to keep my Website simplistic to allow for ease of play i have utilised the following features.
 
 ### Included Features
 
 #### Header
 
-+ Logo - allows identification of brand and a clickable link to take you back to the default landing page
-+ Navigational Bar - Allows access to all pages throughout the site at all times.
++ Logo - simple logo of a joystick represents the fun purpose of this website.
++ Navbar recessed to the side with an expandable feature to show further detail and navigation when requested.
 
-![Header](/assets/readme-images/header-nav.png)
+![Header](/assets/readmeimages/header.png)
 
 #### Home
 
-Some info on Fabric Active and their objectives, includinging images.
++ I tried to keep the Game page as uncluttered as possible while stil having nagigation access.
+
+![Home](/assets/readmeimages/homepage.png)
 
 #### Footer
 
-+ Social Media Links for Faric Active brand
-+ Contact links that will take you to contact page
-+ Social links for Developers Github and Linkedin
++ Social Media & Contact Links for Owners and Developer
 
-![Footer](/assets/readme-images/footer.png)
+![Footer](/assets/readmeimages/footer.png)
 
-### Product Page
+#### How To Play Page
 
-#### Product Information
++ Simple incructions on how to play and a link back to the game below.
 
-+ Detailed information on product
-+ Images
-+ Enquiry Button
+![How To Play](/assets/readmeimages/howtoplay.png)
 
-### Contact Page
+#### Contact Page
+
+![Contact Page](/assets/readmeimages/contact.png)
 
 #### Contact Form
 
@@ -208,17 +208,18 @@ Some info on Fabric Active and their objectives, includinging images.
     + Name
     + Email
     + Message Area
+    + JavaScript allowing user to email owner directly from webpage.
+
++ Developer details
 #### Form Confirmation
 
-A message confirming Form has been submitted
+Once Send message has been clicked a popup appears saying request was submitted sucessfully.
 ### Future Features
 
-+ A buy now feature 
-+ More products under a product gallery
-+ Product options such as colour, size and quantity
-+ Google Maps feature
-+ Showing how many products are in stock
-+ Customer account feature so customers can keep track of orders
++ Levels of difficulty
++ links to other games
++ Score rankings with other players
+
 
 ---
 
@@ -226,10 +227,8 @@ A message confirming Form has been submitted
 
 + [HTML5](https://html.spec.whatwg.org/)
 + [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
++ [JavaScript](https://www.javascript.com/)
 + [Balsamic](https://balsamiq.com/wireframes/)
-+ [Coolers.co](https://coolors.co/)
-+ [MyColor](https://mycolor.space/?hex=%23F76C53&sub=1)
-+ [WebAim](https://webaim.org/resources/contrastchecker/)
 + [Google Fonts](https://fonts.google.com/)
 + [Font Awesome](https://fontawesome.com/)
 + [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
